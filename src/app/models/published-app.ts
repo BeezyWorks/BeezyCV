@@ -7,7 +7,9 @@ export enum Platforms{
     Angular,
     dotNet,
     Node,
-    Loopback
+    Loopback,
+    C,
+    AndroidWear
 }
 
 export class PublishedApp{
