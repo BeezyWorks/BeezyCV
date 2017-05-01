@@ -5,6 +5,8 @@ import { Job } from './job';
 export class Applicant {
     firstName: string;
     lastName: string;
+    shortDescription: string;
+    avatarUrl: string;
     email: string;
     city: string;
     skills: Skill[];

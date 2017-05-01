@@ -1,0 +1,26 @@
+ <div class="background">
+    </div>
+<body class="main-content">
+    <md-card class="content-card">
+        <md-card-title-group>
+            <md-card-title>{{applicant.firstName}} {{applicant.lastName}}</md-card-title>
+            <md-card-subtitle>{{applicant.shortDescription}}</md-card-subtitle>
+            <img md-card-avatar src="{{applicant.avatarUrl}}" />
+        </md-card-title-group>
+        <label>Email</label>
+        <a href="mailto://{{applicant.email}}?subject=Hello Mattaniah.Bz" target="_blank">{{applicant.email}}</a>
+    </md-card>
+
+    <md-card class="content-card">
+        <md-card-title>Work Experience</md-card-title>
+    </md-card>
+
+     <md-card class="content-card">
+        <md-card-title>Skills</md-card-title>
+        <md-list>
+            <md-list-item *ngFor="let skill of applicant.skills">
+                {{skill.description}}
+            </md-list-item>
+        </md-list>
+    </md-card>
+</body>

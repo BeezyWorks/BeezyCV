@@ -3,6 +3,8 @@ import { Applicant, Platforms } from '../models/index';
 export const APPLICANT: Applicant = {
     firstName: 'Mattaniah',
     lastName: 'Beezy',
+    shortDescription: "Full Stack Mobile and Web Developer",
+    avatarUrl: "https://lh5.googleusercontent.com/-05uj31Zm2qc/AAAAAAAAAAI/AAAAAAAAJfg/067-ArDfqvg/photo.jpg",
     email: 'mattaniahbeezy@gmail.com',
     city: 'Jerusalem',
     jobs: [
@@ -64,7 +66,7 @@ export const APPLICANT: Applicant = {
             description: "Backend development and maintenence in NodeJS usint Loopback with MongoDB"
         },
         {
-            description: "Deployed apps to AWS S3 and Firebase"
+            description: "Deployed apps to AWS and Firebase"
         }
     ],
     publishedApps: [
