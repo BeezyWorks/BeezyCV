@@ -67,6 +67,9 @@ export const APPLICANT: Applicant = {
         },
         {
             description: "Deployed apps to AWS and Firebase"
+        },
+        {
+            description: "Continuous delivery of Andrdoid, iOS and Xamarin apps to Google Play and App Store using automated systems"
         }
     ],
     publishedApps: [

@@ -1,5 +1,6 @@
- <div class="background">
-    </div>
+<div class="background">
+</div>
+
 <body class="main-content">
     <md-card class="content-card">
         <md-card-title-group>
@@ -13,9 +14,15 @@
 
     <md-card class="content-card">
         <md-card-title>Work Experience</md-card-title>
+        <job *ngFor="let job of applicant.jobs" [job]="job"></job>
     </md-card>
 
-     <md-card class="content-card">
+    <md-card class="content-card">
+        <md-card-title>Selected Projects</md-card-title>
+        <published-app *ngFor="let app of applicant.publishedApps" [app]="app"></published-app>
+    </md-card>
+
+    <md-card class="content-card">
         <md-card-title>Skills</md-card-title>
         <md-list>
             <md-list-item *ngFor="let skill of applicant.skills">

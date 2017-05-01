@@ -1,0 +1,8 @@
+<div *ngIf="_app">
+  <h1>{{_app.title}}</h1>
+  <div>
+    <label class="platform-label" *ngFor="let platform of _app.platform">{{platform}} </label>
+  </div>
+  <label>{{_app.description}}</label>
+  <a *ngIf="_app.gitHubLink" href="{{_app.gitHubLink}}" target="_blank">GitHub</a>
+</div>
