@@ -7,7 +7,7 @@ import { PublishedApp, Platforms } from '../../models/index';
   styleUrls: ['./published-app.component.css']
 })
 export class PublishedAppComponent implements OnInit {
-  private _app: PublishedApp;
+  _app: PublishedApp;
   constructor() { }
 
   ngOnInit() {

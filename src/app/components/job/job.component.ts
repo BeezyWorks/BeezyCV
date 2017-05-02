@@ -7,7 +7,7 @@ import { Job } from '../../models/index';
   styleUrls: ['./job.component.css']
 })
 export class JobComponent implements OnInit {
-  private _job: Job;
+  _job: Job;
   constructor() { }
 
   ngOnInit() {
