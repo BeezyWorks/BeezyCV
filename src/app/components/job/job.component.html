@@ -1,3 +1,9 @@
 <div *ngIf="_job">
   <h1>{{_job.title}}</h1>
+  <label>{{_job.company}}</label>
+  <label>{{_job.startDate | date: 'MMM yyyy'}}</label>
+  <label *ngIf="_job.endDate">- {{_job.endDate | date: 'MMM yyyy'}}</label>
+  <ul>
+    <li *ngFor="let duty of _job.responsibilities">{{duty}}</li>
+  </ul>
 </div>

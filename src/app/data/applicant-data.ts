@@ -39,7 +39,7 @@ export const APPLICANT: Applicant = {
         },
         {
             company: 'Beezy Works Studios',
-            startDate: new Date(2013),
+            startDate: new Date(2013, 10),
             endDate: null,
             title: 'Full Stack Developer',
             responsibilities: [
