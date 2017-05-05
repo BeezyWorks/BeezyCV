@@ -87,7 +87,7 @@ export class ResumeComponent implements OnInit {
     }
 
     // Print document
-    pdf.save('BeezyCV.pdf');
+    pdf.output("dataurlnewwindow");
   }
 
   openGithubLink() {
@@ -107,7 +107,6 @@ export class ResumeComponent implements OnInit {
       this.currentTop = top;
     }
     let splitText: string[] = pdf.splitTextToSize(text, 180);
-    console.log(splitText);
     if (!linkURL) {
       pdf.text(style.marginLeft, top, splitText);
     }
