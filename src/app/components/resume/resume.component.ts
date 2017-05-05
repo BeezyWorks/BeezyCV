@@ -9,10 +9,16 @@ import { APPLICANT } from '../../data/applicant-data';
 })
 export class ResumeComponent implements OnInit {
   applicant: Applicant = APPLICANT;
+  private maxMobileWidth: number = 1024;
+  isMobileSize: boolean;
 
   constructor() { }
 
   ngOnInit() {
+    this.isMobileSize = window.innerWidth < this.maxMobileWidth;
+    window.onresize = () => {
+      this.isMobileSize = (window.innerWidth < this.maxMobileWidth);
+    }
   }
 
 }

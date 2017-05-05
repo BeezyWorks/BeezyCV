@@ -16,11 +16,11 @@ export const APPLICANT: Applicant = {
             responsibilities: [
                 "Develop native iOS and Android apps",
                 "Develop tools for generating Android and iOS apps",
-                "Create and maintain webapps in AngularJS",
-                "Create backends for apps using Node and Loopback with MongoDB",
+                "Create and maintain web apps in AngularJS",
+                "Create back ends for apps using Node and Loopback with MongoDB",
                 "Code review and best practices enforcement",
                 "Research and implement tools for faster development and release of apps",
-                "Project managment and prognostics"
+                "Project management and prognostics"
             ]
         },
         {
@@ -44,7 +44,7 @@ export const APPLICANT: Applicant = {
             title: 'Full Stack Developer',
             responsibilities: [
                 "Create, develop and maintain apps for mobile, web and wearables",
-                "Over 10k downloads (of a reasonably nieche area), with an over 4.7 star rating on Google Play",
+                "Over 10k downloads (of a reasonably niche area), with an over 4.7 star rating on Google Play",
                 "Constantly learn new technologies and platforms to increase my fame and glory"
             ]
         }
@@ -57,25 +57,25 @@ export const APPLICANT: Applicant = {
             description: "Cross platform mobile development in Xamarin"
         },
         {
-            description: "Maintenence of large and complex .Net projects"
+            description: "Maintenance of large and complex .Net projects"
         },
         {
             description: "Web development in Angular and AngularJS"
         },
         {
-            description: "Backend development and maintenence in NodeJS usint Loopback with MongoDB"
+            description: "Back end development and maintenance in NodeJS using Loopback with MongoDB"
         },
         {
             description: "Deployed apps to AWS and Firebase"
         },
         {
-            description: "Continuous delivery of Andrdoid, iOS and Xamarin apps to Google Play and App Store using automated systems"
+            description: "Continuous delivery of Android, iOS and Xamarin apps to Google Play and App Store using automated systems"
         }
     ],
     publishedApps: [
         {
             title: 'uVersit',
-            description: 'An app for students to take college courses. Includes a chat with the professor, asignments, quizes, grades and materials. I worked on the mobile as well as the server side development',
+            description: 'An app for students to take college courses. Includes a chat with the professor, assignments, quizzes, grades and materials. I worked on the mobile as well as the server side development',
             platform: [
                 Platforms.iOS,
                 Platforms.Xamarin,
@@ -86,7 +86,7 @@ export const APPLICANT: Applicant = {
         },
         {
             title: 'Charity App',
-            description: 'A design heavy app for users to make donations from their mobile devices. This app featured a lot of animations and security. Much consideration had to be made for optomization and security.',
+            description: 'A design heavy app for users to make donations from their mobile devices. This app featured a lot of animations and security. Much consideration had to be made for optimization and security.',
             platform: [
                 Platforms.iOS,
                 Platforms.Android,
@@ -112,7 +112,7 @@ export const APPLICANT: Applicant = {
                 Platforms.C,
                 Platforms.AndroidWear
             ],
-            description: "A handy little prayer book and hebrew watchface for your wrist. Uses location to calculate prayer times (solar times).",
+            description: "A handy little prayer book and Hebrew watch face for your wrist. Uses location to calculate prayer times (solar times).",
             gitHubLink: "https://github.com/BeezyWorks/handy-siddur-pebble"
         }
     ]
